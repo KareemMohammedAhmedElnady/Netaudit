@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+# local device data - may contain credentials
+inventory.json
+configs/
+baseline/
+alerts.log
+report.html

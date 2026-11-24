@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "netaudit"
+version = "0.1.0"
+description = "Audit, monitor and automate router/switch configurations"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{name = "Kareem Elnady"}]
+keywords = ["network", "audit", "cisco", "monitoring", "automation"]
+
+[project.optional-dependencies]
+live = ["netmiko>=4.0"]
+
+[project.scripts]
+netaudit = "netaudit.cli:main"

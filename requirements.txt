@@ -1,0 +1,2 @@
+# Optional: only needed for live-device features (collect / monitor / automate)
+netmiko>=4.0
